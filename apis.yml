@@ -1,8 +1,27 @@
 aid: plume-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plume-health.png
 name: Plume Health
-description: Plume Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Plume Health (Plume) is a telehealth company delivering gender-affirming care to
+  transgender and gender non-conforming people across the United States. Through a
+  mobile app and licensed clinicians, Plume provides gender-affirming hormone therapy
+  (estrogen and testosterone), mental health support, medical letters for surgery and
+  identification changes, and everyday clinical care, all on a monthly membership
+  subscription. Founded in 2019 and backed by General Catalyst, Plume operates as a
+  HIPAA-covered, LegitScript-certified consumer healthcare provider. It is a
+  consumer-facing care service and does not currently publish a public developer API
+  or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/plume-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Health
+- Healthcare
+- Telehealth
+- Telemedicine
+- Gender-Affirming Care
+- Mental Health
+- HIPAA
+- Consumer Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/plume-health-domain-security.yml
+- type: Website
+  url: https://getplume.co/
+- type: SignUp
+  url: https://getplume.co/get-started/
+- type: GettingStarted
+  url: https://getplume.co/how-it-works
+- type: Pricing
+  url: https://getplume.co/services-pricing/
+- type: Blog
+  url: https://getplume.co/blog
+- type: Support
+  url: https://support.getplume.co/
+- type: PrivacyPolicy
+  url: https://getplume.co/privacy
+- type: TermsOfService
+  url: https://getplume.co/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
